@@ -1,0 +1,104 @@
+body {
+background-color: #3C4567;
+font-family: 'Josefin Slab', serif;
+color: black;
+font-size: 20px;
+line-height: 16px;
+}
+
+h1 {
+font-family: 'Josefin Slab', serif;
+color: black;
+font-size: 27px;
+line-height: 16px;
+}
+
+h2, h3 {
+font-family: 'Josefin Slab', serif;
+color: black;
+font-size: 20px;
+line-height: 16px;
+}
+
+link {
+font-family: 'Josefin Slab', serif;
+color: black;
+font-size: 27px;
+text-decoration: none;
+}
+
+a:hover {
+   opacity: 0.5;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+.card-textcenter {
+    background-color: #E2F2EE;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid lightgrey;
+
+}
+
+.size-img{
+  width: 300px;
+  margin: auto;
+}
+
+#photo{
+  border-radius: 50%;
+  width: 200px
+}
+
+.center{
+text-align: justify;
+text-align: center;
+
+}
+
+.adjustment{
+  text-align: center;
+  margin: auto
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 1px 8px;
+  padding-left: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: #E2F2EE;
+  width: auto;
+  padding-right: 20px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  list: center;
+}
+
+.formulaire{
+  text-align: center;
+  margin: auto;
+}
+
+.tableau-center{
+  text-align: center;
+  margin: auto;
+}
